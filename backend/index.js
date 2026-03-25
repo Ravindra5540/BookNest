@@ -15,7 +15,8 @@ app.use(cors({
   origin: [
     "http://localhost:3000",   // React (CRA)
     "http://localhost:5173",   // Vite
-    "https://book-app-frontend-tau.vercel.app"
+    "https://book-app-frontend-tau.vercel.app",
+    "https://book-nest-neon-six.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true
